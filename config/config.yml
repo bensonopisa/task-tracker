@@ -1,0 +1,15 @@
+app:
+  name: task-tracker-app
+  database:
+    dbname: tasktracker
+    dbhost: localhost
+    dbport: 5432
+    dbpassword: tracker_admin123
+    dbuser: admin
+    sslmode: disable
+    # connsPools:
+    #   idleConns: 10
+    #   maxOpenConns: 100
+    #   maxConnLifetime: 1    # duration in minutes that you wish your connections to be alive
+server:
+  port: 9000
